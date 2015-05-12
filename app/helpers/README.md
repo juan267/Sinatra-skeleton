@@ -29,4 +29,4 @@ because helper files are read *only once* at web-server *startup* time.  Also,
 if you add a new helper or alter its implementation, you *also* must restart it
 so that "sourced" (i.e. read in) anew.  Other web frameworks do not require
 this restart e.g. Rails but in this starter kit  you're best not "bubbling out"
-helpers until your implementation has "gelled."
+helpers until your implementation has 'gelled.'
